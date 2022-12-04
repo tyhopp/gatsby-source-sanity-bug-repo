@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /Users/taylor/.yarn/bin/yarn.js add sanity-source-gatsby@latest
+
+PATH: 
+  /Users/taylor/.yarn/bin:/Users/taylor/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/taylor/.fig/bin:/Users/taylor/.local/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  18.12.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/sanity-source-gatsby: Not found
+      at params.callback [as _callback] (/Users/taylor/.yarn/lib/cli.js:67031:18)
+      at self.callback (/Users/taylor/.yarn/lib/cli.js:140885:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/taylor/.yarn/lib/cli.js:141857:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/taylor/.yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "gatsby-starter-minimal",
+    "version": "1.0.0",
+    "private": true,
+    "description": "A Gatsby starter with no plugins and a single welcome page.",
+    "author": "Laurie Barth",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "license": "0BSD",
+    "dependencies": {
+      "gatsby": "^5.2.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
